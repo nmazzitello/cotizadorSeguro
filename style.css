@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, #4f6912, #6c7a27, #898b3b, #a69c50, #c2ae67);
+}
+
+header{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(71, 199, 156);
+}
+h1{
+    margin: 0px;
+}
+
+form{
+    background-color: rgb(199, 233, 246);
+    width: 1500px;
+    padding: 50px;
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.error{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 250px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+
+.exito{
+    background-color: rgb(164, 235, 164);
+    border: 3px solid rgb(44, 226, 44);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 400px;
+    margin-left: 400px;
+    color: black;
+    font-size: 25px;
+}
+
+.spin{
+    display: flex;
+    justify-content: center;
+}
+
+#resultado{
+    /* display: flex;
+    justify-content: center; */
+    display: none;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border: 3px solid rgb(71, 199, 156) !important;
+}
+
